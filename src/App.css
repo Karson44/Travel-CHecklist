@@ -1,38 +1,119 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-image: url("https://getflywheel.com/layout/wp-content/uploads/2019/05/Website-Color-Schemes-Feature-1280x455.jpg");
+  width: 100%;
+  height: 100vh;
+  background-color: #23c2f2;
   display: flex;
+  justify-content: flex-start;
   flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: 90% 70%;
+  background-position: 50% 20%;
+}
+
+.headerBack {
+  background-color: #2d4399;
+  height: 110px;
+  display: flex;
+  margin-top: -20px;
+  justify-content: center;
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  font-size: 68px;
+  background-color: #2d4399;
+  border-bottom: 2px black;
+  font-family: times;
+  color: #bfdbe6;
+}
+
+.box {
+  width: 25vw;
+  height: 66vh;
+  background: #2d4399;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 8.5%;
+  margin-top: 60px;
+  /* overflow: scroll; */
+}
+
+.title {
+  width: 90%;
+  height: 4vh;
+  margin-top: 8px;
+  background-color: #09b2df;
+  box-shadow: 6px 6px 8px #7b4784;
+  border-radius: 7px;
+  text-align: center;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #273c99;
+  font-family: "Arvo", serif;
+  font-size: 130%;
 }
 
-.App-link {
-  color: #61dafb;
+input[type="text"] {
+  background-color: #2d4399;
+  color: #09b2df;
+  margin-top: 8px;
+  width: 80%;
+  height: 25px;
+  border-bottom: 2px #00aaa0;
+  border: none;
+  box-sizing: border-box;
+  margin-top: 20px;
+  font-family: "Monda", sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.addButton {
+  background-color: #09b2df;
+  color: #fcf4d9;
+  margin-top: 8px;
+  width: 90px;
+  height: 25px;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+}
+
+.listItemBox {
+  color: #09b2df;
+  font-family: "Monda", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: .6em;
+}
+ 
+ 
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  outline: 1px solid white;
+  border-radius: 9px;
+}
+
+.listDisplay {
+  width: 80%;
+  border-radius: 3px;
+  height: 220px;
+  padding-bottom: 10px;
+  background-color: #BFDBE6;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  align-items: center;
+  overflow: scroll;
+  overflow-x: hidden;
+  /* margin-right: 100px; */
 }
