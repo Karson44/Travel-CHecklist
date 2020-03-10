@@ -20,7 +20,10 @@ export default class App extends Component {
     axios.get("/api/items").then(res => {
       this.setState({
         list: res.data
-      });
+      })
+      // .catch(res => {
+      //   res.status(500).send(console.log('Failed to Fetch'))
+      // })
     });
   }
 

@@ -48,7 +48,7 @@ export default class ToDo extends Component {
           <div>
             <input className="inputChange"
               onChange={e => this.setState({ name: e.target.value })}
-              placeholder="Change name..."
+              placeholder="Change item..."
               value={name}
             />
             <input className="inputChange"

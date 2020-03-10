@@ -37,12 +37,12 @@
   background: #2d4399;
   border-radius: 15px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
   margin-left: 8.5%;
-  margin-top: 60px;
+  margin-top: 4%;
   /* overflow: scroll; */
 }
 
@@ -66,7 +66,7 @@ input[type="text"] {
   background-color: #2d4399;
   color: #09b2df;
   margin-top: 8px;
-  width: 80%;
+  width: 85%;
   height: 25px;
   border-bottom: 2px #00aaa0;
   border: none;
@@ -79,12 +79,17 @@ input[type="text"] {
   background-color: #09b2df;
   color: #fcf4d9;
   margin-top: 8px;
-  width: 90px;
+  width: 70px;
   height: 25px;
   border: none;
   box-sizing: border-box;
   border-radius: 5px;
 
+}
+
+.addButton:hover {
+  background: white;
+  color: #09b2df;
 }
 
 .listItemBox {
@@ -117,3 +122,5 @@ input[type="text"] {
   overflow-x: hidden;
   /* margin-right: 100px; */
 }
+
+

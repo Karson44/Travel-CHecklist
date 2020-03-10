@@ -4,7 +4,7 @@ export default class Header extends Component {
   render() {
     return (
       <div className="headerBack">
-        <img src="mbark.png" alt="NOthing to See" height="175px"></img>
+        <img src="mbark.png" alt="Nothing to See" height="175px"></img>
       </div>
     );
   }
