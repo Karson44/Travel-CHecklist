@@ -21,9 +21,9 @@ export default class App extends Component {
       this.setState({
         list: res.data
       })
-      // .catch(res => {
-      //   res.status(500).send(console.log('Failed to Fetch'))
-      // })
+      .catch(() => {
+        console.log('Error')
+      })
     });
   }
 
