@@ -36,6 +36,7 @@ export default class ToDo extends Component {
   };
 
   render() {
+    console.log('hello')
     let { name, image } = this.state;
     let { id } = this.props.task;
     return (
